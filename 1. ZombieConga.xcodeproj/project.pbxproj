@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		645E458F1A80B26A002FA08F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E458E1A80B26A002FA08F /* AppDelegate.swift */; };
-		645E45911A80B26A002FA08F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 645E45901A80B26A002FA08F /* GameScene.sks */; };
 		645E45931A80B26A002FA08F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E45921A80B26A002FA08F /* GameScene.swift */; };
 		645E45951A80B26A002FA08F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E45941A80B26A002FA08F /* GameViewController.swift */; };
 		645E45981A80B26A002FA08F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645E45961A80B26A002FA08F /* Main.storyboard */; };
 		645E459A1A80B26B002FA08F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645E45991A80B26B002FA08F /* Images.xcassets */; };
-		645E459D1A80B26B002FA08F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645E459B1A80B26B002FA08F /* LaunchScreen.xib */; };
 		645E45A91A80B26B002FA08F /* ___ZombieCongaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E45A81A80B26B002FA08F /* ___ZombieCongaTests.swift */; };
+		645E45B81A80B9A8002FA08F /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 645E45B31A80B9A8002FA08F /* background1.png */; };
+		645E45B91A80B9A8002FA08F /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 645E45B41A80B9A8002FA08F /* background2.png */; };
+		645E45BA1A80B9A8002FA08F /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 645E45B51A80B9A8002FA08F /* MainMenu.png */; };
+		645E45BB1A80B9A8002FA08F /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 645E45B61A80B9A8002FA08F /* YouLose.png */; };
+		645E45BC1A80B9A8002FA08F /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 645E45B71A80B9A8002FA08F /* YouWin.png */; };
+		645E45BE1A80B9CA002FA08F /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 645E45BD1A80B9CA002FA08F /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +35,19 @@
 		645E45891A80B26A002FA08F /* 1. ZombieConga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1. ZombieConga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645E458D1A80B26A002FA08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		645E458E1A80B26A002FA08F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		645E45901A80B26A002FA08F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		645E45921A80B26A002FA08F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		645E45941A80B26A002FA08F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		645E45971A80B26A002FA08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		645E45991A80B26B002FA08F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		645E459C1A80B26B002FA08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		645E45A21A80B26B002FA08F /* 1. ZombieCongaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1. ZombieCongaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		645E45A71A80B26B002FA08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		645E45A81A80B26B002FA08F /* ___ZombieCongaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___ZombieCongaTests.swift"; sourceTree = "<group>"; };
+		645E45B31A80B9A8002FA08F /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		645E45B41A80B9A8002FA08F /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		645E45B51A80B9A8002FA08F /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
+		645E45B61A80B9A8002FA08F /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLose.png; sourceTree = "<group>"; };
+		645E45B71A80B9A8002FA08F /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
+		645E45BD1A80B9CA002FA08F /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +89,12 @@
 		645E458B1A80B26A002FA08F /* 1. ZombieConga */ = {
 			isa = PBXGroup;
 			children = (
+				645E45B21A80B9A8002FA08F /* Images */,
+				645E45BD1A80B9CA002FA08F /* sprites.atlas */,
 				645E458E1A80B26A002FA08F /* AppDelegate.swift */,
-				645E45901A80B26A002FA08F /* GameScene.sks */,
 				645E45921A80B26A002FA08F /* GameScene.swift */,
 				645E45941A80B26A002FA08F /* GameViewController.swift */,
 				645E45961A80B26A002FA08F /* Main.storyboard */,
-				645E45991A80B26B002FA08F /* Images.xcassets */,
-				645E459B1A80B26B002FA08F /* LaunchScreen.xib */,
 				645E458C1A80B26A002FA08F /* Supporting Files */,
 			);
 			path = "1. ZombieConga";
@@ -96,6 +103,7 @@
 		645E458C1A80B26A002FA08F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				645E45991A80B26B002FA08F /* Images.xcassets */,
 				645E458D1A80B26A002FA08F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +124,18 @@
 				645E45A71A80B26B002FA08F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		645E45B21A80B9A8002FA08F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				645E45B31A80B9A8002FA08F /* background1.png */,
+				645E45B41A80B9A8002FA08F /* background2.png */,
+				645E45B51A80B9A8002FA08F /* MainMenu.png */,
+				645E45B61A80B9A8002FA08F /* YouLose.png */,
+				645E45B71A80B9A8002FA08F /* YouWin.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,9 +218,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				645E459D1A80B26B002FA08F /* LaunchScreen.xib in Resources */,
+				645E45B91A80B9A8002FA08F /* background2.png in Resources */,
 				645E459A1A80B26B002FA08F /* Images.xcassets in Resources */,
-				645E45911A80B26A002FA08F /* GameScene.sks in Resources */,
+				645E45BE1A80B9CA002FA08F /* sprites.atlas in Resources */,
+				645E45BB1A80B9A8002FA08F /* YouLose.png in Resources */,
+				645E45BA1A80B9A8002FA08F /* MainMenu.png in Resources */,
+				645E45B81A80B9A8002FA08F /* background1.png in Resources */,
+				645E45BC1A80B9A8002FA08F /* YouWin.png in Resources */,
 				645E45981A80B26A002FA08F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +274,6 @@
 				645E45971A80B26A002FA08F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		645E459B1A80B26B002FA08F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				645E459C1A80B26B002FA08F /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -346,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "1. ZombieConga/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "1. ZombieConga/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
