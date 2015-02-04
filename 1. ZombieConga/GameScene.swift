@@ -31,10 +31,11 @@ class GameScene: SKScene {
     }
     
     override func didMoveToView(view: SKView) {
-        self.backgroundColor = SKColor.whiteColor()
+        backgroundColor = SKColor.whiteColor()
         
-        self.addChild(self.background1)
-        self.addChild(self.zombie1)
+        addChild(background1)
+        addChild(zombie1)
+        spawnEnemy()
     }
     
     override func update(currentTime: NSTimeInterval) {
@@ -50,6 +51,14 @@ class GameScene: SKScene {
         boundsCheckZombie()
         rotateSprite(zombie1, direction: velocity)
         
+    }
+    
+    func spawnEnemy() {
+        let enemy = SKSpriteNode(imageNamed: "enemy")
+        enemy.position = CGPoint(x: size.width + enemy.size.width / 2, y: size.height / 2)
+        addChild(enemy)
+        let actionMove = SKAction.moveTo(CGPoint(x: -enemy.size.width / 2, y: enemy.position.y), duration: 2.0)
+        enemy.runAction(actionMove)
     }
     
     //MARK:Move
