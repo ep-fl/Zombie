@@ -53,12 +53,17 @@ class GameScene: SKScene {
         
     }
     
+    //MARK:Actions
+    
     func spawnEnemy() {
         let enemy = SKSpriteNode(imageNamed: "enemy")
         enemy.position = CGPoint(x: size.width + enemy.size.width / 2, y: size.height / 2)
         addChild(enemy)
-        let actionMove = SKAction.moveTo(CGPoint(x: -enemy.size.width / 2, y: enemy.position.y), duration: 2.0)
-        enemy.runAction(actionMove)
+        
+        let actionMidMove = SKAction.moveByX( -size.width/2-enemy.size.width/2, y: -CGRectGetHeight(playableRect)/2 + enemy.size.height/2, duration: 1.0)
+        let actionMove = SKAction.moveByX( -size.width/2-enemy.size.width/2, y: CGRectGetHeight(playableRect)/2 - enemy.size.height/2, duration: 1.0)
+        let sequence = SKAction.sequence([actionMidMove, actionMove, actionMove.reversedAction(), actionMidMove.reversedAction()])
+        enemy.runAction(SKAction.repeatActionForever(sequence))
     }
     
     //MARK:Move
